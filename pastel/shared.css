@@ -76,6 +76,18 @@ div.steamdeckcompatfilter_DialogWrapper_143i9{
     border: 2px solid #b390d3;
 }
 
+/*Filter modal inner dialog*/
 div.steamdeckcompatfilter_DialogWrapper_143i9 > div{
     background: #b390d3;
+    border: 2px solid #b390d3;
+}
+
+
+div.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:not(.gpfocus){
+    background:#d2c4df !important;
+    color: black;
+}
+
+div.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3.gpfocus{
+    color: black;
 }
