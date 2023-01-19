@@ -1,0 +1,10 @@
+{
+    "name": "Pastel Picker",
+    "author": "ploot",
+    "manifest_version": 1,
+    "target": "Other",
+    "description": "I like pastel colors",
+    "inject": {
+        "shared.css": ["QuickAccess"]
+    }
+}
