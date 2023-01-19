@@ -1,11 +1,33 @@
 :root {
-    --test-main-color: #000
+    --test-main-color: #B3D9B4
 }
 
-.quickaccessmenu_QuickAccessMenu_V0cr-,.quickaccessmenu_Title_34nl5,.quickaccessmenu_Tab_1S76C {
-    background: var(--test-main-color)
+.gamepadtabbedpage_TabContents_WDa0_{
+    background: var(--test-main-color);
 }
 
-.quickaccessmenu_Title_34nl5 {
-    box-shadow: none;
+
+/*Library view top nav bar (all games, installed, favorites, etc.)*/
+.gamepadtabbedpage_TabHeaderRowWrapper_2Jobs {
+    box-shadow: 0px 0px 10px black;
+}
+
+/*Unselected label text contained in above*/
+.gamepadtabbedpage_Tab_3eEbS{
+    color: white;
+}
+
+/*Selected label text from above*/
+.gamepadtabbedpage_Selected_3Gp1b.gpfocus{
+    color: #ffc8dd;
+}
+
+/*Game hour count category labels (over 100 hours label, etc.)*/
+.appgrid_AppGridSectionLabel_2hvQb{
+    color: white;
+}
+
+/*Individual game hour tag (appears under game picture)*/
+appportrait_LibraryItemBoxSubscript_1LJqx{
+    background-color: #A2D2E3
 }
