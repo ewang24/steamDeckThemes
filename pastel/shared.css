@@ -2,6 +2,7 @@
     --test-main-color: #B3D9B4
 }
 
+/*The library page container*/
 .gamepadtabbedpage_TabContents_WDa0_{
     background: var(--test-main-color);
 }
@@ -19,7 +20,13 @@
 
 /*Selected label text from above*/
 .gamepadtabbedpage_Selected_3Gp1b.gpfocus{
-    color: #ffc8dd;
+    color: #ffc8dd !important;
+    background: white !important;
+}
+
+
+.gamepadtabbedpage_Selected_3Gp1b.gpfocus > .gamepadtabbedpage_TabCount_1ui4I{
+    color: #ff5d9b !important;
 }
 
 /*Game hour count category labels (over 100 hours label, etc.)*/
@@ -28,6 +35,22 @@
 }
 
 /*Individual game hour tag (appears under game picture)*/
-appportrait_LibraryItemBoxSubscript_1LJqx{
-    background-color: #A2D2E3
+.appportrait_LibraryItemBoxSubscript_1LJqx{
+    background-color: #A2D2E3 !important;
 }
+
+/*Header icons (wifi, battery, etc)*/
+#header > .header_HeaderItem_2HnVd:not(.gpfocus) {
+    background: #A2D2E3
+}
+
+
+/*The search bar*/
+#header .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ:not(gpsource){
+    background: #e4f5ff
+}
+
+.searchbar_SearchContainer_161Tj > svg > path{
+    fill: #ffc8dd !important;
+}
+
