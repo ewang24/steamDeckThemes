@@ -50,7 +50,32 @@
     background: #e4f5ff
 }
 
+/* Search bar magnifying glass */
 .searchbar_SearchContainer_161Tj > svg > path{
     fill: #ffc8dd !important;
 }
 
+#Footer.footer_BasicFooter_3T1iF{
+    background: #A2D2E3;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+#Footer .actionbuttonlegenditem_ActionButtonLabel_31Jnn{
+    color: white
+}
+
+#Footer .appgrid_CompatFooterIcons_3wP0R{
+    background-color: white;
+
+}
+
+/*Filter modal*/
+div.steamdeckcompatfilter_DialogWrapper_143i9{
+    background: #b390d3;
+    border: 2px solid #b390d3;
+}
+
+div.steamdeckcompatfilter_DialogWrapper_143i9 > div{
+    background: #b390d3;
+}
